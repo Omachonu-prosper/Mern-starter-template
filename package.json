@@ -4,6 +4,7 @@
   "description": "A starter template for creating a new MERN project",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon -w server server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,12 +14,18 @@
   "keywords": [
     "MERN",
     "Templates",
-    "Starter",
+    "Starter"
   ],
   "author": "Omachonu Prosper",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Omachonu-prosper/Mern-starter-template/issues"
   },
-  "homepage": "https://github.com/Omachonu-prosper/Mern-starter-template#readme"
+  "homepage": "https://github.com/Omachonu-prosper/Mern-starter-template#readme",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
 }
