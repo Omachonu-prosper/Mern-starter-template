@@ -1,3 +1,9 @@
+# Ignore The Built Javascript from JSX
+public/app.js
+
+# Ignore Package-lock.json
+package-lock.json
+
 # Logs
 logs
 *.log
