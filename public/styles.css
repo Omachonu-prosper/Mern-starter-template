@@ -3,3 +3,20 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.image-container {
+	width: 100vw;
+	height: 100vh;
+	background: #ad5389;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	position: relative;
+}
+
+.mern-image {
+	display: inline-block;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+}

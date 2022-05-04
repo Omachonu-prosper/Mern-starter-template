@@ -1,3 +1,12 @@
-const hello = React.createElement('h1', null, 'Hello World');
+class ImageContainer extends React.Component {
+	render() {
+		return (
+			<div className='image-container'>
+				<img className='mern-image' src='/images/mern.png' />
+			</div>
+		)
+	}
+}
 
-ReactDOM.render(hello, document.getElementById('root'));
+const element = <ImageContainer />
+ReactDOM.render(element, document.getElementById('root'));
