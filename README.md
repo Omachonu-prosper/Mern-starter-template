@@ -14,7 +14,7 @@ To install all project dependencies and development dependencies run `npm instal
 ### Starting up your node server
 To start your development server run `npm start`. If you go to [localhost on port 3000](http://localhost:3000) You would see the index page of your app.
 
-![Image of the default app that runs when you start your server](/public/images/default-app.png)
+![Image of the default app that runs when you start your server](/public/images/default-app.JPG)
 
 > For easy reload on file changes we used nodemon. This package enables your server to automatically restart once a file in the ***server*** directory is changed.
 
