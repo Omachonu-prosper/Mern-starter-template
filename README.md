@@ -24,7 +24,7 @@ To compile your react/jsx code to pure javascript that the browser can understan
 > Note: The above compilation should be used when in production to compile jsx to js once. In development you use the `npm run watch-babel` command instead. This makes babel to watch for changes to your code and auto compile them for you.
 
 ## Features
-This project ia s starter template for ***MERN*** stack and uses the following versions of the core technologies of the stack (M - [mongodb](), E - [Express](), R - [React](), N - [Node.js]()).
+This project ia s starter template for ***MERN*** stack and uses the following versions of the core technologies of the stack (M - [mongodb](mongodb.com), E - [Express](expressjs.com), R - [React](react.com), N - [Node.js](nodejs.org)).
 
 - Mongodb - __still-to-come__
 - Express - @4.18.1
